@@ -1,0 +1,185 @@
+/* Global css */
+
+
+/* First section */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.global-btn {
+    width: 140px;
+    height: 40px;
+    background-color: red;
+    border-radius: 20px;
+    color: aquamarine;
+    border-color: rgb(208, 202, 226);
+}
+
+.element {
+    font-size: 40px;
+    color: rgb(245, 241, 31);
+}
+
+.first-section {
+    background-image: url(./img/banner/b18.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
+}
+
+section .title {
+    font-size: 90px;
+    color: rgb(233, 225, 225);
+}
+
+.global-section {
+    padding: 3rem 0;
+}
+
+.global-heading {
+    font-size: 55px;
+    color: black;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.global-head-p {
+    color: rgb(25, 12, 214);
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+#para {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.main-item ul li {
+    display: inline;
+    margin: 10px;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+
+/* about us section */
+
+.about-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.about-main-div2 {
+    width: 500px;
+}
+
+.about-main-div2 h2 {
+    font-size: 33px;
+}
+
+.about-main-div2 p {
+    color: rgb(230, 141, 33);
+    margin: 15px 0;
+}
+
+
+/* Service area */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-single-item {
+    padding: 50px;
+    text-align: center;
+}
+
+.pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+}
+
+
+/* this is my work section */
+
+.pic2 {
+    width: 390px;
+}
+
+
+/* this is my testimonial section */
+
+.grid-container2 {
+    background-color: rgb(104, 211, 175);
+    display: flex;
+}
+
+.pic3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+/* Contact section */
+
+.contact-heading {
+    font-size: 55px;
+    text-align: center;
+}
+
+form {
+    margin-left: 38rem;
+    margin-top: 20px;
+    margin-bottom: 6rem;
+}
+
+form input {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn {
+    width: 200px;
+    height: 25px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+/* This is footer */
+
+.footer {
+    background-color: black;
+    text-align: center;
+    height: 3rem;
+    color: white;
+}
+
+.footer p {
+    padding-top: 15px;
+}
